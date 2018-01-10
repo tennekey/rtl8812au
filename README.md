@@ -1,8 +1,8 @@
-## RTL8812AU Driver for Armbian
+## RTL8812AU/RTL8821AU Driver for Armbian
 
 Source: https://github.com/gnab/rtl8812au
 
-RTL8812AU/RTL8821AU driver for Armbian builds (tested with 3.4.113-sun8i kernel on NanoPi NEO & Orange Pi Zero)
+Realtek 802.11ac v4.2.2 (RTL8812AU/RTL8821AU) driver for Armbian builds (tested with **linux kernel 3.4.113** on NanoPi NEO & Orange Pi Zero)
 
 # Installation
 
@@ -36,8 +36,8 @@ Load the driver (Note: use 8812au or 8821au, depending on your adapter's chipset
 
 ```shell
 
-insmod 8821au
+insmod 8812au
 
 ```
 
-To make sure the module loads on boot, append the inserted module name to **/etc/modules** (e.g. 8821au)
+To make sure the module loads on boot, append the inserted module name (i.e. 8812au) to **/etc/modules**
