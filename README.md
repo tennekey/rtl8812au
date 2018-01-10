@@ -36,7 +36,7 @@ Load the driver (Note: use 8812au or 8821au, depending on your adapter's chipset
 
 ```shell
 
-insmod 8812au
+modprobe 8812au
 
 ```
 
